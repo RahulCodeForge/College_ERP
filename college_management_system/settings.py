@@ -159,13 +159,13 @@ SESSION_SAVE_EVERY_REQUEST = True  # Save session on every request to extend exp
 # EMAIL_BACKEND = 'django.core.mail.backends.filebased.EmailBackend'
 # EMAIL_FILE_PATH = os.path.join(BASE_DIR, "sent_mails")
 
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = 587
 
-EMAIL_HOST_USER = os.environ.get('virusrk9534@gmail.com') 
-EMAIL_HOST_PASSWORD = os.environ.get('Virus@2003')
-EMAIL_USE_TLS = True
+# EMAIL_HOST_USER = os.environ.get('virusrk9534@gmail.com') 
+# EMAIL_HOST_PASSWORD = os.environ.get('Virus@2003')
+# EMAIL_USE_TLS = True
 # DEFAULT_FROM_EMAIL = "School Management System <admin@admin.com>"
 
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
