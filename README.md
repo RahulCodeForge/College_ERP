@@ -94,6 +94,7 @@ For quick evaluation on a live/demo deployment:
 
 | Role | Email | Password |
 |------|-------|----------|
+| 👨‍🎓 **Admin** | `rahul@gmail.com` | `rahul` |
 | 👨‍🎓 **Student** | `s1@gmail.com` | `s1` |
 | 👨‍🏫 **Staff** | `t1@gmail.com` | `t1` |
 
@@ -133,22 +134,8 @@ cd College-ERP
 
 #### 2️⃣ Create a Virtual Environment
 
-**Option A: Conda (Recommended)**
 
-A `college-erp.yml` file is included in the project root:
-
-```bash
-conda env create -f college-erp.yml
-conda activate Django-env
-```
-
-To update the environment after pulling new changes:
-
-```bash
-conda env update -f college-erp.yml --prune
-```
-
-**Option B: Python venv**
+**Option A: Python venv**
 
 <details>
 <summary>Windows</summary>
